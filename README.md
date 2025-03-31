@@ -13,27 +13,30 @@ Escreva um documento simples com:
 - [ ] **RF02:** O frontend deve se comunicar via API com o backend
 - [ ] **RF03:** O sistema deve cadastrar clientes com nome e email
 - [ ] **RF04:** O sistema deve criar propostas com cliente
-- [ ] **RF05:** O sistema deve criar produtos
-- [ ] **RF06:** O sistema deve inserir produtos em proposta
+- [ ] **RF05:** O sistema deve criar produtos (Macro)
+- [ ] **RF06:** O sistema deve inserir produtos(Macro e Micro) em proposta
 - [ ] **RF07:** O sistema deve atualizar propostas
-- [ ] **RF08:** O sistema deve atualizar produtos
+- [ ] **RF08:** O sistema deve atualizar produtos (Macro e Micro)
 - [ ] **RF09:** O sistema deve listar todas as propostas cadastradas
 - [ ] **RF10:** Propostas devem possuir:
     - Titulo da Proposta
     - Valor PTAX
     - Data PTAX
     - Data de Validade
-    - Validade da Proposta
 - [ ] **RF11:** Produtos devem possuir:
     - Nome/Descrição
+    - Moeda
     - Quantidade
     - Custo
-    - Margem Percentual
-    - Valor de Margem
+    - Margem Percentual de Venda
+    - Valor de Margem de Venda
     - Valor Unitário
     - Valor Total
     - Valor de Desconto
     - Valor Total c/ Desconto
+    - Produtos Micro (Subprodutos/Componentes)
+- [ ] **RF12:** O sistema deve integrar CRM via API Rest:
+    - CRM Ploomes (Negócios, Produtos, Propostas, Empresas e Pessoas)
 #### Requisitos Não Funcionais (RNF)
 - [ ] **RNF01:** Propostas devem possuir:
     - Status da Proposta
@@ -46,6 +49,20 @@ Escreva um documento simples com:
     - Tipo (Produto ou Serviço)
     - Descrição adicional
     - Especificações Técnicas/Detalhes
+    - Moeda Exibição
+      - Switch Conversão
+    - Switch Imposto
+      - Aliquota de Imposto
+      - Valor Total c/ Imposto
+    - Switch Comissões
+      - Taxa de Comissão
+      - Valor de Comissão
+      - Comissionado
+    - Valor de Margem Estimada
+    - Valor de Margem Espelho
+
+    
+    
 
 
 
