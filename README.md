@@ -1,15 +1,12 @@
-# Planejamento - PropostaMaster
+# PropostaMaster
 
-## Fase Inicial: Análise e Planejamento
+## Análise e Planejamento
 
 ### 1.1. Análise de Requisitos
 
-**O que fazer:**  
-Identifique os requisitos funcionais (o que o sistema deve fazer) e não funcionais (ex.: desempenho, usabilidade).  
-Escreva um documento simples com:
-
 #### Requisitos Funcionais (RF)
 - [ ] **RF01:** O sistema deve ser web
+- [ ] **RF02:** O sistema deve utilizar Tabulator.js ou similar
 - [ ] **RF02:** O frontend deve se comunicar via API com o backend
 - [ ] **RF03:** O sistema deve cadastrar clientes com nome e email
 - [ ] **RF04:** O sistema deve criar propostas com cliente
@@ -35,6 +32,7 @@ Escreva um documento simples com:
     - Valor de Desconto
     - Valor Total c/ Desconto
     - Produtos Micro (Subprodutos/Componentes)
+    - Descrição Micro avulsa (Substituto de produtos Micro)
 - [ ] **RF12:** O sistema deve integrar CRM via API Rest:
     - CRM Ploomes (Negócios, Produtos, Propostas, Empresas e Pessoas)
 #### Requisitos Não Funcionais (RNF)
@@ -61,29 +59,14 @@ Escreva um documento simples com:
     - Valor de Margem Estimada
     - Valor de Margem Espelho
 
-    
-    
-
-
-
-
-**Dica:** Pesquise sobre requisitos funcionais e não funcionais. Use uma tabela ou lista numerada para organização.  
-**Resultado:** Um documento claro que define o escopo técnico do "Proposta Fácil".
-
 ### 1.2. Estudo de Caso
 
-**O que fazer:**  
-Imagine um cenário real para justificar o sistema. Exemplo:
+**Caso 001:**
+- **Contexto:** Usuario do sistema recebe por e-mail uma LONGA lista de produtos, Serviços e seus respectivos custos (PDF, Tabela).
+- **Problema atual:** Transferir as informações para um CRM de forma ágil/prática e íntegra.
+- **Solução proposta:** Copiar os valores por coluna, linha ou tabela na origem da informação e o sistema deve permitir colar este valores em seus respectivos campos.
 
-> "Uma pequena empresa de consultoria precisa gerenciar propostas comerciais para seus clientes. Atualmente, eles usam planilhas, o que é demorado e propenso a erros. O 'Proposta Fácil' será uma solução web para agilizar esse processo."
-
-**Descreva:**
-- **Contexto:** Quem usa, por que precisam.
-- **Problema atual:** Ex.: falta de automação.
-- **Solução proposta:** O sistema.
-
-**Dica:** Veja exemplos de estudos de caso em engenharia de software para se inspirar.  
-**Resultado:** Um texto curto (1-2 parágrafos) que dá propósito ao projeto.
+**Resultado:** O sistema aceita os dados inseridos, realiza as devidas verificações de dados (tipos de informação) e as processa conforme necessidade (criação/atualização dos produtos Macro e Micro).
 
 ### 1.3. Diagrama de Casos de Uso
 
