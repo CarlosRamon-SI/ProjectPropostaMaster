@@ -1,0 +1,98 @@
+CAPA
+
+// [Proposta.Status da Proposta]
+[Proposta.Título da Proposta]
+[Proposta.RESUMOS_?]
+[Proposta.PTAX_VALOR]
+[Proposta.PTAX_DATA]
+[Proposta.Apresentar Bitdefender?*]
+
+[Proposta.Faturar para Revenda?*]
+[Proposta.Forma de Pagamento]
+[Proposta.Condições Pagamento]
+[Proposta.Qtde dias após faturamento] >>-> Quando apropriado.
+[Proposta.Observações de Pagamento] >>-> Quando Necessário.
+
+    [Proposta.Exibir Msg Imposto ?*] --> REDIRECIONAR PARA O PRODUTO, ISSO INCLUI AS MENSAGENS IMPORTANTES DA PROPOSTA
+    [Proposta.Exibir Totais da tabela ?] --> REDIRECIONAR PARA O PRODUTO
+    [Proposta.Totalizar em Dólar?*] --> REDIRECIONAR PARA O PRODUTO
+    [Proposta.Omitir Nome do Produto?*] --> REDIRECIONAR PARA O PRODUTO
+
+[Proposta.Data de validade]
+[Proposta.Validade da proposta] >>-> CONTA OS DIAS ATÉ O VENCIMENTO OU DEFINE A DATA DE VALIDADE
+
+[Proposta.Aliquota Anexo III corrigida*]
+
+[Proposta.Info. Import.] >>-> Informação Complementar.
+
+
+
+INVESTIMENTOS
+
+// INTERMEDIAÇÃO
+    [Proposta.Custo]
+    [Proposta.Margem R$]
+    [Proposta.Total]
+    [Proposta.Desconto R$]
+    [Proposta.Total c/ Desconto]
+    [Proposta.Total c/ Imp.]
+
+// ÚNICO
+    [Proposta.Custo Único*]
+    [Proposta.Margem R$ de Único]
+    [Proposta.Desconto R$ Único*]
+    [Proposta.Total Único c/ Desconto*]
+    [Proposta.Total Único c/ Imp.*]
+
+// MENSAIS
+    [Proposta.Custo de Contratos]
+    [Proposta.Margem R$ de Contratos*]
+    [Proposta.Total de Contratos*]
+    [Proposta.Desconto R$ de Contratos*]
+    [Proposta.Contratos c/ Desconto*]
+    [Proposta.Contratos c/ Imp.*]
+
+    // INTERMEDIAÇÃO (DUPLICADO)
+        [Proposta.Custo Intermediação]
+        [Proposta.Desconto R$ Intermediação]
+        [Proposta.Margem R$ Intermediação]
+        [Proposta.Total Intermediação c/ Desconto]
+        [Proposta.Total Intermediação c/ Imp.]
+
+// INTERMEDIAÇÃO + ÚNICO (RESUMO INVESTIMENTOS)
+    [Proposta.Custo de Investimentos]
+    [Proposta.Margem R$ de Investimentos]
+    [Proposta.Investimentos]
+    [Proposta.Desconto R$ de Investimentos]
+    [Proposta.Investimentos c/ Desconto]
+    [Proposta.investimentos c/ Imp.]
+
+// COMISSÕES    
+    [Proposta.Valor Comissão Intermediação*]
+    [Proposta.Valor Comissão Única*]
+    [Proposta.Valor Comissão Mensal*]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

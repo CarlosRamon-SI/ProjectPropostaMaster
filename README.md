@@ -9,24 +9,45 @@ Identifique os requisitos funcionais (o que o sistema deve fazer) e não funcion
 Escreva um documento simples com:
 
 #### Requisitos Funcionais (RF)
-- [ ] **RF01:** O sistema deve ser web.
-- [ ] **RF02:** O frontend deve se comunicar via API com o backend.
-- [ ] **RF03:** O sistema deve cadastrar clientes com nome e email.
-- [ ] **RF04:** O sistema deve criar propostas com cliente.
-- [ ] **RF05:** O sistema deve criar produtos.
-- [ ] **RF06:** O sistema deve inserir produtos em proposta.
-- [ ] **RF07:** O sistema deve atualizar propostas.
-- [ ] **RF08:** O sistema deve atualizar produtos.
-- [ ] **RF09:** O sistema deve listar todas as propostas cadastradas.
-
+- [ ] **RF01:** O sistema deve ser web
+- [ ] **RF02:** O frontend deve se comunicar via API com o backend
+- [ ] **RF03:** O sistema deve cadastrar clientes com nome e email
+- [ ] **RF04:** O sistema deve criar propostas com cliente
+- [ ] **RF05:** O sistema deve criar produtos
+- [ ] **RF06:** O sistema deve inserir produtos em proposta
+- [ ] **RF07:** O sistema deve atualizar propostas
+- [ ] **RF08:** O sistema deve atualizar produtos
+- [ ] **RF09:** O sistema deve listar todas as propostas cadastradas
+- [ ] **RF10:** Propostas devem possuir:
+    - Titulo da Proposta
+    - Valor PTAX
+    - Data PTAX
+    - Data de Validade
+    - Validade da Proposta
+- [ ] **RF11:** Produtos devem possuir:
+    - Nome/Descrição
+    - Quantidade
+    - Custo
+    - Margem Percentual
+    - Valor de Margem
+    - Valor Unitário
+    - Valor Total
+    - Valor de Desconto
+    - Valor Total c/ Desconto
 #### Requisitos Não Funcionais (RNF)
-- [ ] **RNF01:** O sistema deve criar propostas com:
-    - Status da Proposta - string[150];
-    - Titulo da Proposta - string[150];
-    - Resumos - Boolean;
-    - Bitdefender - Boolean;
-    - Valor PTAX - Decimal;
-    - Data PTAX - Datetime;
+- [ ] **RNF01:** Propostas devem possuir:
+    - Status da Proposta
+    - Switch Resumos
+    - Switch Bitdefender
+    - Aliquota Anexo III Corrigida
+    - Informações Importantes (Complementar)
+- [ ] **RNF02:** Produtos devem possuir:
+    - Categoria (Intermediação, Revenda, Único, Mensal ou Contrato)
+    - Tipo (Produto ou Serviço)
+    - Descrição adicional
+    - Especificações Técnicas/Detalhes
+
+
 
 
 **Dica:** Pesquise sobre requisitos funcionais e não funcionais. Use uma tabela ou lista numerada para organização.  
