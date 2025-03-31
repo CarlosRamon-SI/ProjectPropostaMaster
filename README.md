@@ -21,12 +21,12 @@ Escreva um documento simples com:
 
 #### Requisitos Não Funcionais (RNF)
 - [ ] **RNF01:** O sistema deve criar propostas com:
-- [ ] Status da Proposta - string[150];
-- [ ] Titulo da Proposta - string[150];
-- [ ] Resumos - Boolean;
-- [ ] Bitdefender - Boolean;
-- [ ] Valor PTAX - Decimal;
-- [ ] Data PTAX - Datetime;
+    - Status da Proposta - string[150];
+    - Titulo da Proposta - string[150];
+    - Resumos - Boolean;
+    - Bitdefender - Boolean;
+    - Valor PTAX - Decimal;
+    - Data PTAX - Datetime;
 
 
 **Dica:** Pesquise sobre requisitos funcionais e não funcionais. Use uma tabela ou lista numerada para organização.  
