@@ -21,7 +21,6 @@ Escreva um documento simples com:
 
 #### Requisitos Não Funcionais (RNF)
 - [ ] **RNF01:** O sistema deve criar propostas com:
-    
 - [ ] Status da Proposta - string[150];
 - [ ] Titulo da Proposta - string[150];
 - [ ] Resumos - Boolean;
